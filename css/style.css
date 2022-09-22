@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Utilities*/
+
+.d-flex {
+    display: flex
+}
+
+.color-black {
+    background-color: black;
+}
+
+
+/*Header*/
+
+.container-header {
+    height: 50px;
+    color: #E2E3D8;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px 0;
+}
