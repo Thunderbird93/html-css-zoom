@@ -50,6 +50,31 @@ body {
     height: 2rem;
 }
 
+img {
+    width: 100%;
+}
+
+/*Main*/
+
+main {
+    overflow: auto;
+    color: white;
+}
+
+main .container-main {
+    height: 100vh;
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+main .container-main .utente {
+    width: 300px;
+    height: 160px;
+    background-image: url(/img/messi.jpeg);
+    background-size: cover;
+    margin: 5px;
+    position: relative;
+}
 
 
 
