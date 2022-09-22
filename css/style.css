@@ -59,7 +59,7 @@ img {
 main {
     overflow: auto;
     color: white;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 120px);
 }
 
 main .container-main {
@@ -79,7 +79,7 @@ main .container-main .utente {
 
 main .container-main .utente .nome-utente {
     width: 120px;
-    background-color: rgba( 110, 118, 128, 50%);
+    background-color: rgba( 110, 118, 128, 90%);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -88,11 +88,37 @@ main .container-main .utente .nome-utente {
 /*Footer*/
 
 footer {
-    height: 100px;
+    height: 70px;
     background-color: #222222;
-    color: white
+    color: white;
 }
 
+footer .btn-press i {
+    font-size: 30px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer .container-footer {
+    justify-content: space-between;
+}
+
+footer .btn-press {
+    padding: 5px;
+    margin: 3px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer .chevron {
+    font-weight: bolder;
+    font-size: 12px;
+}
 
 
 
