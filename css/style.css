@@ -8,6 +8,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 /*Utilities*/
 
 .d-flex {
@@ -18,6 +19,10 @@ body {
     background-color: black;
 }
 
+.center {
+    align-items: center;
+    justify-content: center;
+}
 
 /*Header*/
 
@@ -28,3 +33,23 @@ body {
     align-items: center;
     padding: 0 20px 0;
 }
+
+.container-header .btn {
+    border-radius: 5px;
+    background-color: #4A4A4A;
+    margin: 0 5px 0;
+}
+
+.container-header .left {
+    width: 9rem;
+    height: 2rem;
+}
+
+.container-header .right{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+
