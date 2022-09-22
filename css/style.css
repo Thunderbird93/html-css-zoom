@@ -59,12 +59,13 @@ img {
 main {
     overflow: auto;
     color: white;
+    height: calc(100vh - 150px);
 }
 
 main .container-main {
-    height: 100vh;
-    width: 95%;
     flex-wrap: wrap;
+    margin: 10px 25px;
+    justify-content: center;
 }
 
 main .container-main .utente {
@@ -75,6 +76,24 @@ main .container-main .utente {
     margin: 5px;
     position: relative;
 }
+
+main .container-main .utente .nome-utente {
+    width: 120px;
+    background-color: rgba( 110, 118, 128, 50%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*Footer*/
+
+footer {
+    height: 100px;
+    background-color: #222222;
+    color: white
+}
+
+
 
 
 
