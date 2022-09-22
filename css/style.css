@@ -19,6 +19,10 @@ body {
     background-color: black;
 }
 
+.color-green {
+    color: #70C53A;
+}
+
 .center {
     align-items: center;
     justify-content: center;
@@ -118,6 +122,18 @@ footer .btn-press {
 footer .chevron {
     font-weight: bolder;
     font-size: 12px;
+}
+
+footer .container-footer .actions, .audiovideo, .chevron {
+    padding-right: 30px;
+    font-weight: bolder;
+}
+
+footer .container-footer .btn-end {
+    height: 70px;
+    width: 150px;
+    background-color: #4A4A4A;
+    color: #DD3A38;
 }
 
 
